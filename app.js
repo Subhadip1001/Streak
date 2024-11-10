@@ -3,7 +3,6 @@ const num = document.querySelector(".number");
 const btn = document.querySelector(".btn");
 let count, Fname;
 
-
 btn.addEventListener("click", ()=>{
     count = parseInt(localStorage.getItem("streak")) || 0;
     count++;
